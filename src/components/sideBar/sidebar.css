@@ -1,0 +1,101 @@
+.sidebar-container {
+  width: 450px;
+  margin: 42px;
+  padding: 42px;
+  position: static;
+}
+.person-host {
+  height: 60px;
+  width: 60px;
+  background-color: brown;
+  color: #fff;
+  font-size: 32px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 22px;
+}
+.dot-symbol {
+  background-color: aquamarine;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-top: 52px;
+}
+.person-host-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.name {
+  font-size: 22px;
+  font-weight: 400;
+  font-family: "Roboto";
+}
+
+.role {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Roboto";
+}
+.plus-icon {
+  width: 32px;
+  background-color: transparent;
+}
+h1 {
+  font-size: 22px;
+  font-weight: 600;
+}
+.conversation-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 42px;
+}
+.has-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 42px;
+}
+.has-symbol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 30%;
+  background-color: bisque;
+  -webkit-border-radius: 30%;
+  -moz-border-radius: 30%;
+  -ms-border-radius: 30%;
+  -o-border-radius: 30%;
+  font-size: 38px;
+  margin-right: 42px;
+}
+.organization {
+  font-size: 28px;
+  font-family: "Roboto";
+}
+.active {
+  padding: 12px;
+  height: 60px;
+  width: 60px;
+  background-color: #82aae3;
+  width: 100%;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
